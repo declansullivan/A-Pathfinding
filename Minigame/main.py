@@ -13,7 +13,7 @@ def event(event):
 
 if __name__ == "__main__":
     width, height = 800, 800
-    rows, cols = 20, 20
+    rows, cols = 25, 25
 
     root = Tk()
     root.geometry("{}x{}".format(width, height))
