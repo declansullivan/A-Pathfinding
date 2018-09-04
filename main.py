@@ -8,12 +8,13 @@ relative_coords = [(-1, -1), (0, -1), (1, -1), (1, 0),
                    (1, 1), (0, 1), (-1, 1), (-1, 0)]
 
 width = 800
-height = 800
-rows = 50
 columns = 50
 
-pixel_width = width // rows
-pixel_height = height // columns
+height = 800
+rows = 50
+
+pixel_width = width // columns
+pixel_height = height // rows
 
 
 class Node():
