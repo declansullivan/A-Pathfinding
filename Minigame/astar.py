@@ -23,8 +23,8 @@ class AStar():
         e3 = enemy.Enemy(self.nodes[0][self.cols - 1], self.end)
         e4 = enemy.Enemy(self.nodes[self.rows - 1][self.cols - 1], self.end)
 
-        # self.enemies = [e, e2, e3, e4]
-        self.enemies = [e]
+        self.enemies = [e, e2, e3, e4]
+        # self.enemies = [e]
 
 
     def draw(self):
